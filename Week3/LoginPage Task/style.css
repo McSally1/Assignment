@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  :root{
+    background-image: url(https://www.nasdaq.com/sites/acquia.prod/files/styles/720x400/public/2021/05/07/cryptocurrency-Nuthawut-adobe.jpg?h=6acbff97&itok=kyPXtQ0N);
+    background-size: cover;
+    background-repeat: no-repeat;
+  /*   background-color: hsla(274, 86%, 18%, 1); */
+    color: #fff;
+    
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .inputdata{
+    width: 25%;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: hsla(216, 100%, 23%, 1);
+  
+  }
+  
+  .paradise{
+    background-color: hsla(216, 100%, 23%, 1);
+    text-align: centre;
+  }

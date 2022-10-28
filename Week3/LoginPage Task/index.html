@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <section>
+    <div class="inputdata">
+      <h1 class="topic"> REGISTRATION</h1>
+      <p>If you do not have an account, please register below.</p>
+
+      <form action="/success.html">
+        <table>
+          <tr>
+            <td><label for="fname"> First Name: </label> </td>
+            <td><input type="text" id="fname" name="fname" required> </td>
+          </tr>
+          <tr>
+            <td><label for="lname"> Last Name: </label></td>
+            <td> <input type="text" id="lname" name="lname" required></td>
+          </tr>
+          <tr>
+            <td> <label for="pnumber"> Phone Number: </label> </td>
+            <td> <input type="number" id="pnumber" name="pnumber" required> </td>
+          </tr>
+          <tr>
+            <td> <label for="email"> E-mail: </label> </td>
+            <td> <input type="email" id="email" name="email" required> </td>
+          </tr>
+          <tr>
+            <td> <label for="gender"> Gender: </label> </td>
+            <td> <select name="gender" required>
+                <option value="male" selected> Male</option>
+                <option value="female">Female</option>
+              </select> </td>
+          </tr>
+          <tr>
+            <td><label for="DOB"> Date of Birth: </label> </td>
+            <td> <input type="date" id="DOB" name="DOB" required min="1970-01-01" max="2018-12-31"> </td>
+          </tr>
+          <tr>
+            <td><label for="color"> Favorite Colour: </label> </td>
+            <td> <input type="color" id="bestcolor" name="bestcolor"> </td>
+          </tr>
+          <tr>
+            <td><input type="submit" value="Submit"> </td>
+          </tr>
+      </form>
+      </table>
+    </div>
+  </section>
+
+
+
+  <section>
+    <div class=inputdata>
+      <h1 class="topic">LOGIN</h1>
+      <p>If you already have an account, please login below.</p>
+
+      <form action="/success.html">
+        <table>
+          <tr>
+            <td> <label for=email>E-mail</label> </td>
+            <td> <input type="email" id="email" name="email" required> </td>
+          </tr>
+
+          <tr>
+            <td> <label for=pword>Password</label></td>
+            <td> <input type="password" id="pword" name="pword" required></td>
+          </tr>
+
+          <tr>
+            <td> <input type="submit" value="Submit"></td>
+          </tr>
+
+        </table>
+      </form>
+    </div>
+  </section>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>

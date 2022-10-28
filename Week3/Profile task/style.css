@@ -1,0 +1,70 @@
+html, body {
+    height: auto;
+    width: auto;
+    background-color: hsla(25, 28%, 69%, 1);
+  
+  }
+  .navigation{
+    text-align: right;
+    margin-top: 20px;
+  
+  }
+  .nav{
+    margin: 10px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px;
+    text-decoration: none;
+    
+  }
+  .introduction{
+    margin-top: 100px;
+    margin-left: 30px;
+    text-align: justify;
+    
+  }
+  .intro{
+    font-size: 40px;
+    padding: 0px;
+  }
+  .name{
+    font-size: 80px;
+    padding: 0px;
+    margin-bottom: 0px;
+    
+  }
+  .title{
+    font-size: 14px;
+    background-color: blue; 
+    border-radius: 10px;
+    margin-top: 0px;
+    color: #fff;
+    padding: 5px;
+  }
+  .image{
+  /* height: 200px;   */
+   width: 40%;  
+   border: 7px ridge blue;  
+    border-radius: 20px;
+  /*   float: left; */
+    
+  }
+  .intro-detail{
+    width: 50%;
+    float: left;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 20px;
+    
+  }.about{
+     font-size: 40px;
+     margin: 20px;
+    background-color: hsla(25, 28%, 69%, 1);
+  }
+  .one{
+    font-size: 50px;
+    text-align: center;
+  }
+  .last{
+    text-align: center;
+  }
